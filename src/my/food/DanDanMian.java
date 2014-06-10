@@ -3,6 +3,8 @@ package my.food;
 import java.util.ArrayList;
 import java.util.List;
 
+import my.country.Country;
+
 public class DanDanMian implements Food {
 	List<String> ingredients = new ArrayList<String>();
 
@@ -20,8 +22,7 @@ public class DanDanMian implements Food {
 
 	@Override
 	public String getCountryOrigin() {
-		// TODO Auto-generated method stub
-		return null;
+		return Country.Italy.getLabel();
 	}
 
 //	@Override

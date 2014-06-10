@@ -3,6 +3,8 @@ package my.food;
 import java.util.ArrayList;
 import java.util.List;
 
+import my.country.Country;
+
 /* 
  * Class Food sample Pizza : 
  * do not modify! 
@@ -27,8 +29,7 @@ public class Pizza implements Food {
 
 	@Override
 	public String getCountryOrigin() {
-		// TODO Auto-generated method stub
-		return null;
+		return Country.France.getLabel();
 	}
 
 //	@Override
