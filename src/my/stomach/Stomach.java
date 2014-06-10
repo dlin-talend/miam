@@ -36,6 +36,10 @@ public class Stomach {
 			sb.append(food.getIngredients());
 			sb.append("\n\n");
 			
+			/* Display the list of country areas */
+			sb.append(food.getCountryOrigin());
+			sb.append("\n\n");
+			
 			/* Exercise 3: Display the country of origin see class Country */ 
 			
 		}
