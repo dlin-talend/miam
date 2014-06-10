@@ -23,12 +23,89 @@ public class ChaShaoBao implements Food {
 
 	@Override
 	public String getCountryOrigin() {
-		return "ËÄ´¨";
+		return "Si Chuan";
 	}
 
 	@Override
 	public Integer getCalory() {
 		return 1500;
 	}
+	class Pork{
+		private String name;
+		
+		private int calory;
+		
+		public Pork(String name,int calory){
+			this.name = name;
+			this.calory = calory;
+		}
 
+		public String getName() {
+			return name;
+		}
+
+		public void setName(String name) {
+			this.name = name;
+		}
+
+		public int getCalory() {
+			return calory;
+		}
+
+		public void setCalory(int calory) {
+			this.calory = calory;
+		}
+	}
+	class Oystersauce{
+		private String name;
+		
+		private int calory;
+		
+		public Oystersauce(String name,int calory){
+			this.name = name;
+			this.calory = calory;
+		}
+
+		public String getName() {
+			return name;
+		}
+
+		public void setName(String name) {
+			this.name = name;
+		}
+
+		public int getCalory() {
+			return calory;
+		}
+
+		public void setCalory(int calory) {
+			this.calory = calory;
+		}
+	}
+	class Bread{
+		private String name;
+		
+		private int calory;
+		
+		public Bread(String name,int calory){
+			this.name = name;
+			this.calory = calory;
+		}
+
+		public String getName() {
+			return name;
+		}
+
+		public void setName(String name) {
+			this.name = name;
+		}
+
+		public int getCalory() {
+			return calory;
+		}
+
+		public void setCalory(int calory) {
+			this.calory = calory;
+		}
+	}
 }
