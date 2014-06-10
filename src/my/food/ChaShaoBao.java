@@ -28,10 +28,10 @@ public class ChaShaoBao implements Food {
 		return "Si Chuan";
 	}
 
-	@Override
-	public Integer getCalory() {
-		return 1500;
-	}
+//	@Override
+//	public Integer getCalory() {
+//		return 1500;
+//	}
 	class Pork{
 		private String name;
 		
