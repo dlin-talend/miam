@@ -11,7 +11,7 @@ import my.food.Food;
 import my.food.Pizza;
 
 public class Stomach {
-
+/*hello my last test*/
 	List<Food> foodsInside = new ArrayList<Food>();
 	/*make it clear*/
 	public Stomach() {
