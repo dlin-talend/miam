@@ -15,7 +15,9 @@ public class ChaShaoBao implements Food {
 		ingredients.add(oyster);
 		ingredients.add(bread);
 	}
-	
+	public  ChaShaoBao(){
+		/*do nothing*/
+	}
 	@Override
 	public List<String> getIngredients() {
 		return ingredients;
