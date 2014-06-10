@@ -12,7 +12,5 @@ public interface Food {
 	
 	public String getCountryOrigin();
 
-	/* Exercise 4 */
-	public Integer getCalory();
 	
 }
