@@ -11,6 +11,7 @@ public class DanDanMian implements Food {
 		this.ingredients.add("noodle");
 		this.ingredients.add("spices");
 		this.ingredients.add("peanuts");
+	}
 	
 	@Override
 	public List<String> getIngredients() {
