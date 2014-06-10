@@ -10,6 +10,12 @@ public class ChaShaoBao implements Food {
 	
 	/* Exercise 1: implement Constructor */
 	
+	public ChaShaoBao(String pork,String oyster,String bread){
+		ingredients.add(pork);
+		ingredients.add(oyster);
+		ingredients.add(bread);
+	}
+	
 	@Override
 	public List<String> getIngredients() {
 		return ingredients;
