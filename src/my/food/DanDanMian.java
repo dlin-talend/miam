@@ -8,9 +8,9 @@ public class DanDanMian implements Food {
 
 	/* Exercise 1: implement Constructor */
 	public DanDanMian(){
-		this.ingredients.add("noodle");
-		this.ingredients.add("spices");
-		this.ingredients.add("peanuts");
+		ingredients.add("noodle");
+		ingredients.add("spices");
+		ingredients.add("peanuts");
 	}
 	
 	@Override
