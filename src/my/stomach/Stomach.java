@@ -15,7 +15,6 @@ public class Stomach {
 	List<Food> foodsInside = new ArrayList<Food>();
 	
 	public Stomach() {
-		foodsInside.add(new Pizza());
 		foodsInside.add(new ChaShaoBao("pork", "oyster", "bread"));
 		/* Exercise 2 : add your food */
 		foodsInside.add(new Pizza()); //want more Pizza
