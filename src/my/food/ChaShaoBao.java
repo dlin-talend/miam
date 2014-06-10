@@ -23,13 +23,11 @@ public class ChaShaoBao implements Food {
 
 	@Override
 	public String getCountryOrigin() {
-		// TODO Auto-generated method stub
 		return "ËÄ´¨";
 	}
 
 	@Override
 	public Integer getCalory() {
-		// TODO Auto-generated method stub
 		return 1500;
 	}
 
