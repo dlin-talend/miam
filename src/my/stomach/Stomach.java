@@ -17,10 +17,6 @@ public class Stomach {
 	public Stomach() {
 		foodsInside.add(new Pizza());
 		foodsInside.add(new ChaShaoBao("pork", "oyster", "bread"));
-		foodsInside.add(new ChaShaoBao("pork", "oyster", "orange"));
-		foodsInside.add(new ChaShaoBao("pork", "oyster", "sdfsfsf"));
-		foodsInside.add(new DanDanMian());
-		foodsInside.add(new DanDanMian());
 		/* Exercise 2 : add your food */
 		foodsInside.add(new Pizza()); //want more Pizza
 	}
